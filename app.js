@@ -97,10 +97,6 @@ function sumArray(array) { //eslint-disable-line
     var newArray = [];
     newArray.push(sum(sum(array[0],array[1])[0],array[2])[0]);
     newArray.push(array[0] + "," + array[1] + "," + array[2] + " was passed in as an array of numbers, and " + newArray[0] + " is their sum" + ".");
-
-   
-    console.log(newArray[0]);
-    console.log(newArray[1]);
     return newArray; 
 }
 
